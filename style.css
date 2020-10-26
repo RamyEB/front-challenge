@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+
+
+- Dark Gray: hsl(0, 0%, 63%)
+- Black: hsl(0, 0%, 0%)
+- White: hsl(0, 0%, 100%)
+- Very Dark Gray: hsl(0, 0%, 27%)
+
+:
+
+:root{
+    --dark-grey: #A9A9A9;
+    --black: #000000;
+    --padding-de-base:​ #a1a1a1;
+}
+
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.topSection{
+    display: flex;
+    height: 65vh;
+}
+
+.topSection .imageContainer{
+    height: 100%;
+}
+
+.topSection .imageContainer img{
+    height: 100%;
+}
+
+.topSection .textContainer{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.topSection .textContainer .info{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.topSection .textContainer .info .title{
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+.topSection .textContainer .info .text{
+    color: #A9A9A9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.topSection .textContainer .info a{
+    display: flex;
+    text-decoration: none;
+}
+
+.topSection .textContainer .info a p{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 25px;
+    letter-spacing: 10px;
+}
+
+.topSection .textContainer .buttonContainer {
+    height: 75px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+
+.topSection .textContainer .buttonContainer .buttonLeft{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.topSection .textContainer .buttonContainer .buttonRight{
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+}
